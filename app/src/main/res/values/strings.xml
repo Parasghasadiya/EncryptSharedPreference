@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Encrypt Preference  Data</string>
+    <string name="title_save_description">Enter the text you want to save then press save encrypt text button. Enter the number you want to save then press save encrypt number button.</string>
+    <string name="label_input_text">Input Text</string>
+    <string name="label_save_text">Save Encrypt Text</string>
+    <string name="label_input_number">Input Number</string>
+    <string name="label_save_number">Save Encrypt Number</string>
+    <string name="label_saved_text">Saved Text :-</string>
+    <string name="label_saved_number">Saved Number :-</string>
+    <string name="message_enter_text">Please enter the text.</string>
+    <string name="message_enter_number">Please enter the number.</string>
+    <string name="message_no_data_found">No saved data found</string>
+</resources>

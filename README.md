@@ -1,6 +1,26 @@
 # Encrypt Shared Preference Wrapper/Helper 
 A small library containing a wrapper/helper for encrypting and decrypting data using the **[Google open Source Tink project](https://opensource.google/projects/tink)**. Tink will store keys in private shared preferences. On Android M or newer, the keys are further encrypted with a master key stored in Android Keystore.
 
+ [![](https://jitpack.io/v/Parasghasadiya/encryptsharedpreference.svg)](https://jitpack.io/#Parasghasadiya/encryptsharedpreference)
+# Dependency
+Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+    repositories {
+        maven { 
+            url 'https://jitpack.io' 
+        }
+    }
+ }
+```
+
+Add the dependency
+```
+dependencies {
+    implementation 'com.github.Parasghasadiya:encryptsharedpreference:1.0'
+}
+```
+
 # Initialize
 Using this library first of need to initialize share preference inside the OnCreate method at Application class of your app.
 ```
